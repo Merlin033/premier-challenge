@@ -1,16 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
 * {
   padding: 0;
   text-align: center;
   box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
 }
 
 body {
-  background-color: hsl(220, 15%, 55%);
+  background-color: hsl(212, 45%, 89%);
 }
 main {
-  display: flex;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -18,21 +21,31 @@ main {
 .container {
   background-color: hsl(0, 0%, 100%);
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  width: 40%;
-  height: 40%;
+  height: 500px;
+  max-width: 311px;
+  max-height: 500px;
   border-radius: 10px;
-  padding-top: 14px;
   flex-direction: column;
 }
 #qrcode {
   border-radius: 10px;
-  width: 90%;
+  max-width: 280px;
+  max-height: 280px;
+  padding-top: 5px;
 }
 h1 {
-  font-size: 1.5rem;
+  font-size: 22px;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  padding-left: 30px;
+  padding-right: 30px;
 }
-h2 {
-  font-size: 1rem;
+.para2 {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  padding-left: 35px;
+  padding-right: 35px;
 }
